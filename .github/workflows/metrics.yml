@@ -13,7 +13,7 @@ jobs:
       contents: write
     steps:
       - name: Generate metrics part 1
-        uses: lowlighter/metrics@latest
+        uses: gh-metrics/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Hythera
